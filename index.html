@@ -74,7 +74,7 @@
     }
     .other-langs.show { display: block; }
     .other-langs div {
-      padding: 6px 0;
+      padding: 8px 0;
       border-bottom: 1px solid #eee;
     }
     .other-langs div:last-child { border-bottom: none; }
@@ -104,6 +104,13 @@
       height: 22px;
       fill: currentColor;
     }
+    .xhs {
+      background: #ff2442 !important;
+      color: #fff !important;
+    }
+    .xhs:hover {
+      background: #e01e3a !important;
+    }
   </style>
 </head>
 <body>
@@ -111,27 +118,27 @@
     <h1><span class="wave">👋</span> Hi there</h1>
 
     <div class="main-langs">
-      <p><strong>中文</strong><br>我是 ryou。非常抱歉，本网站还在建设中。</p>
-      <p><strong>日本語</strong><br>私は ryou です。申し訳ありませんが、このサイトは現在建設中です。</p>
-      <p><strong>English</strong><br>I'm ryou. Sorry, this website is still under construction.</p>
+      <p>这破站还在弄。</p>
+      <p>リョウと申します。現在サイトは建設中です。</p>
+      <p>I'm ryou. website is still under construction.</p>
     </div>
 
     <button class="lang-toggle" onclick="toggleLangs()">查看其它语言 / Other languages</button>
 
     <div class="other-langs" id="otherLangs">
-      <div><strong>Bahasa Indonesia</strong><br>Saya ryou. Maaf, situs web ini masih dalam tahap pembangunan.</div>
-      <div><strong>Deutsch</strong><br>Ich bin ryou. Entschuldigung, diese Website befindet sich noch im Aufbau.</div>
-      <div><strong>Español</strong><br>Soy ryou. Lo siento, este sitio web aún está en construcción.</div>
-      <div><strong>Filipino</strong><br>Ako si ryou. Paumanhin, ang website na ito ay nasa ilalim pa ng konstruksiyon.</div>
-      <div><strong>Français</strong><br>Je suis ryou. Désolé, ce site est encore en construction.</div>
-      <div><strong>Português (Brasil)</strong><br>Eu sou o ryou. Desculpe, este site ainda está em construção.</div>
-      <div><strong>Tiếng Việt</strong><br>Tôi là ryou. Xin lỗi, trang web này vẫn đang được xây dựng.</div>
-      <div><strong>Türkçe</strong><br>Ben ryou. Üzgünüm, bu web sitesi hâlâ yapım aşamasında.</div>
-      <div><strong>Русский</strong><br>Я ryou. Извините, этот сайт всё ещё находится в разработке.</div>
-      <div><strong>हिन्दी</strong><br>मैं ryou हूँ। क्षमा करें, यह वेबसाइट अभी निर्माणाधीन है।</div>
-      <div><strong>ภาษาไทย</strong><br>ฉันคือ ryou ขออภัย เว็บไซต์นี้ยังอยู่ในระหว่างการก่อสร้าง</div>
-      <div><strong>한국어</strong><br>저는 ryou입니다. 죄송합니다. 이 웹사이트는 아직 공사 중입니다.</div>
-      <div><strong>繁體中文</strong><br>我是 ryou。非常抱歉，本網站還在建設中。</div>
+      <div>Saya ryou. Maaf, situs ini masih dalam pengerjaan.</div>
+      <div>Ich bin ryou. Entschuldigung, diese Seite wird noch gebaut.</div>
+      <div>Soy ryou. Lo siento, este sitio aún está en construcción.</div>
+      <div>Ako si ryou. Paumanhin, ang site na ito ay ginagawa pa.</div>
+      <div>Je suis ryou. Désolé, ce site est encore en construction.</div>
+      <div>Eu sou o ryou. Desculpe, este site ainda está em construção.</div>
+      <div>Tôi là ryou. Xin lỗi, trang web này vẫn đang được xây dựng.</div>
+      <div>Ben ryou. Üzgünüm, bu site hâlâ yapım aşamasında.</div>
+      <div>Я ryou. Извините, этот сайт всё ещё строится.</div>
+      <div>मैं ryou हूँ। क्षमा करें, यह साइट अभी बन रही है।</div>
+      <div>ฉันคือ ryou ขออภัย เว็บไซต์นี้ยังอยู่ในระหว่างการก่อสร้าง</div>
+      <div>저는 ryou입니다. 죄송합니다. 이 사이트는 아직 공사 중입니다.</div>
+      <div>我是 ryou。這破站還在弄。</div>
     </div>
 
     <div class="social">
@@ -144,8 +151,8 @@
         <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       </a>
       <!-- 小红书 -->
-      <a href="https://xhslink.cn/o/6cPCevQDtoL" target="_blank" rel="noopener" title="小红书">
-        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" fill="#ff2442"/></svg>
+      <a href="https://xhslink.cn/o/6cPCevQDtoL" target="_blank" rel="noopener" title="小红书" class="xhs">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z" fill="currentColor"/></svg>
       </a>
     </div>
   </div>
